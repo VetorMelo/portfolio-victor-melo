@@ -41,6 +41,21 @@ body {
   grid-template-rows: 100vh;
 }
 
+aside p {
+  background-color: rgba(19, 21, 26, 0.928);
+  border: redsolid;
+  border-radius: 15px;
+  padding: 25px;
+  color: rgb(204, 208, 212);
+}
+
+ .experiencia {
+  font-size: 50px;
+  color: rgb(119, 119, 119);
+  font-style: oblique;
+  padding: 0 0 20px;
+}
+
 #menu ul {
     list-style: none;
     border: 1px solid black;
@@ -82,7 +97,7 @@ nav {
 
 .memory small {
   color: #bebebf;
-  font-size: 0.75rem;
+  font-size: 1.1rem;
 }
 
 .memory h1 {
@@ -128,7 +143,7 @@ aside {
   border-right: 1px solid;
   border-image: linear-gradient(#727275, #2c2c31) 1;
 
-  background-image: url("./assets/background7.png");
+  background-image: url("./sobre/assets/fundo-projetos.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 100%;
