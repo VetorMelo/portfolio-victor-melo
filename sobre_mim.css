@@ -71,7 +71,7 @@ aside p {
 
 
 #menu li a:hover{
-    background:#5b2e8f; 
+    background:#aba80d; 
     color:#fff; 
     -moz-box-shadow:0 3px 10px 0 #CCC; 
     -webkit-box-shadow:0 3px 10px 0 #ccc; 
@@ -159,7 +159,7 @@ aside img:nth-child(2) {
   border-radius: 50%;
 
   border: 4px solid transparent;
-  background: linear-gradient(#eca71d, #a14a11, #273ec5) padding-box,
+  background: linear-gradient(#ffbd39, #ffd30f, #1c9cff) padding-box,
     linear-gradient(260deg, #986909, #eda436, #3b88bc) border-box;
 }
 
