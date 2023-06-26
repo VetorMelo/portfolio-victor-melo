@@ -115,7 +115,7 @@ nav {
 }
 
 .memory div {
-  width: 100%;
+  width: 90%;
   height: 280px;
   overflow: hidden;
   border-radius: 8px;
@@ -129,6 +129,7 @@ nav {
   font-size: 1.2rem;
   color: #bebebf;
   line-height: 28px;
+  width: 90%;
 }
 
 aside {

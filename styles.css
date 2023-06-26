@@ -71,51 +71,22 @@ nav {
   animation: entering 0.7s ease-in-out;
 }
 
-.memory {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-
-  text-decoration: none;
-  margin-bottom: 64px;
+.video-apresentacao {
+  background-image: url(./sobre/assets/fundo-sobre-mim.jpg);
+  border-radius: 30px;
+  border: solid rgba(0, 255, 242, 0.253);
+  
 }
 
-.memory small {
-  color: #bebebf;
-  font-size: 0.75rem;
+.video-apresentacao {
+  padding: 40px;
 }
 
-.memory h1 {
-  font-size: 2rem;
-  color: #eaeaea;
+.video-apresentacao h1 {
+  font-size: 50px;
+  font-style: oblique;
 }
-
-.memory img {
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 8px;
-
-  transition: transform 0.3s ease-in-out;
-}
-
-.memory div {
-  width: 100%;
-  height: 280px;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.memory:hover img {
-  transform: scale(1.1);
-}
-
-.memory p {
-  font-size: 1.2rem;
-  color: #bebebf;
-  line-height: 28px;
-}
-
+ 
 aside {
   grid-area: profile;
 
