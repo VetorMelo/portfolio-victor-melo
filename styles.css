@@ -72,10 +72,14 @@ nav {
 }
 
 .video-apresentacao {
-  background-image: url(./sobre/assets/fundo-sobre-mim.jpg);
+  background-image: linear-gradient(rgb(85, 83, 83),rgb(74, 74, 74),rgba(48, 48, 48, 0.839));
   border-radius: 30px;
-  border: solid rgba(0, 255, 242, 0.253);
+  border: solid #1d1d1e7a;
   
+}
+
+.video-apresentacao h1 {
+  padding: 20px;
 }
 
 .video-apresentacao {
