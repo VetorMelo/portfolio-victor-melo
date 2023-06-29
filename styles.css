@@ -165,7 +165,11 @@ aside span {
     width: 100%;
   }
   span {
-    width: 100%;
+    width: 95%;
+  }
+  aside{
+    border-right: none;
+    padding: 22px 2px;
   }
 }
 

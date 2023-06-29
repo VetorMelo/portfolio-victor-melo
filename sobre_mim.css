@@ -186,12 +186,10 @@ aside span {
     "profile"
     "timeline";
   }
-
   aside{
     border-right: none;
-    padding: 32px 12px;
+    padding: 22px 2px;
   }
-
   nav {
     overflow-y: visible;
     padding: 22px;
@@ -204,11 +202,9 @@ aside span {
   .memory {
     width: 80%;
   }
-  .experiencia {
-    width: 70%;
-  }
-  aside p {
-    width: 60%;
+  aside{
+    border-right: none;
+    padding: 22px 2px;
   }
   aside img:nth-child(2) {
     width: 80%;
