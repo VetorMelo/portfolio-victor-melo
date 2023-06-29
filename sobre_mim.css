@@ -45,7 +45,7 @@ aside p {
   background-color: rgba(19, 21, 26, 0.883);
   border: redsolid;
   border-radius: 15px;
-  padding: 15px;
+  padding: 25px;
   color: rgb(204, 208, 212);
 }
 
@@ -79,7 +79,7 @@ aside p {
 }
 
 nav {
-  padding: 70px;
+  padding: 64px;
   grid-area: timeline;
 
   overflow-y: scroll;
@@ -196,4 +196,23 @@ aside span {
     overflow-y: visible;
     padding: 22px;
   }
+
+@media (max-width: 460px) {
+  span {
+    width: 100%;
+  }
+  .memory {
+    width: 80%;
+  }
+  .experiencia {
+    width: 70%;
+  }
+  aside p {
+    width: 60%;
+  }
+  aside img:nth-child(2) {
+    width: 80%;
+  }
+
+}
 }

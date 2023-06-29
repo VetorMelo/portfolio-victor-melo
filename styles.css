@@ -154,5 +154,19 @@ aside span {
   nav {
     overflow-y: visible;
     padding: 22px;
+    
   }
+@media (max-width: 460px) {
+  .video-apresentacao {
+    width: 100%;
+    padding-inline: 1px;
+  }
+  #Video1 {
+    width: 100%;
+  }
+  span {
+    width: 100%;
+  }
+}
+
 }
