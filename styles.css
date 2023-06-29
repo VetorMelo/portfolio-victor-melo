@@ -171,6 +171,15 @@ aside span {
     border-right: none;
     padding: 22px 2px;
   }
+  aside img:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  border: 4px solid transparent;
+  background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
+    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
+  }
 }
 
 }

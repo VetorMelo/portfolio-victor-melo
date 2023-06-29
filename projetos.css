@@ -131,9 +131,12 @@ nav {
   font-size: 1.2rem;
   color: #bebebf;
   line-height: 28px;
+  text-align: justify;
+
 }
 
 aside {
+  
   grid-area: profile;
 
   display: flex;
@@ -168,6 +171,7 @@ aside img:nth-child(2) {
 aside p {
   font-size: 2rem;
   text-align: center;
+
 }
 
 aside span {
@@ -191,6 +195,7 @@ aside span {
     border-right: none;
     padding: 22px 2px;
   }
+  
   nav {
     overflow-y: visible;
     padding: 22px;
