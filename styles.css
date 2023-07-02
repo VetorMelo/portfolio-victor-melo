@@ -119,8 +119,8 @@ aside img:nth-child(2) {
   border-radius: 50%;
 
   border: 4px solid transparent;
-  background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
-    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
+  background: linear-gradient(#4001a5, #5c26c9, #633bbc) padding-box,
+    linear-gradient(260deg, #4301ad, #6427de, #a69db9) border-box;
 }
 
 aside p {
@@ -131,6 +131,19 @@ aside p {
 aside span {
   font-size: 1.5rem;
   color: #9e9ea0;
+}
+
+.declaracao{
+  font-size: 1.2rem;
+  color: #bebebf;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.declaracao svg {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
@@ -177,9 +190,17 @@ aside span {
   border-radius: 50%;
 
   border: 4px solid transparent;
-  background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
-    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
+  background: linear-gradient(#4001a5, #5c26c9, #633bbc) padding-box,
+    linear-gradient(260deg, #4301ad, #6427de, #a69db9) border-box;
+}
   }
+  .declaracao{
+  font-size: 1.2rem;
+  color: #bebebf;
+  line-height: 28px;
+  text-align: justify;
+}
+
 }
 
 }

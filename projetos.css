@@ -42,7 +42,7 @@ body {
 }
 
 aside p {
-  border: rgb(30, 141, 193) solid;
+  border: rgba(68, 68, 68, 0.437) solid;
   width: 95%;
   background-color: rgba(19, 21, 26, 0.928);
   border: redsolid;
@@ -73,7 +73,7 @@ aside p {
 
 
 #menu li a:hover{
-    background:#238eb8; 
+    background:#5b2e8f; 
     color:#fff; 
     -moz-box-shadow:0 3px 10px 0 #CCC; 
     -webkit-box-shadow:0 3px 10px 0 #ccc; 
@@ -148,7 +148,7 @@ aside {
   border-right: 1px solid;
   border-image: linear-gradient(#727275, #2c2c31) 1;
 
-  background-image: url("./sobre/assets/fundo-projetos.jpg");
+  background-image: url("./assets/background7.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -164,8 +164,8 @@ aside img:nth-child(2) {
   border-radius: 50%;
 
   border: 4px solid transparent;
-  background: linear-gradient(#ffffff, #3645ed, #08bbfc) padding-box,
-    linear-gradient(260deg, #f0faff, #38b6ff, #246dff) border-box;
+  background: linear-gradient(#000000, #444444, #929292) padding-box,
+    linear-gradient(260deg, #000000, #788288, #000000) border-box;
 }
 
 aside p {
@@ -200,5 +200,15 @@ aside span {
     overflow-y: visible;
     padding: 22px;
   }
+
+aside img:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  border: 4px solid transparent;
+  background: linear-gradient(#000000, #444444, #929292) padding-box,
+    linear-gradient(260deg, #000000, #788288, #000000) border-box;
+}
 
 }
