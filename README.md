@@ -1,7 +1,7 @@
 # portfolio-victor-melo
 Portfolio
 
- <a href='[https://vetormelo.github.io/portfolio-victor-melo/]'><button>Confira o projeto clicando aqui</button>
+ <a href='https://vetormelo.github.io/portfolio-victor-melo/'><button>Confira o projeto clicando aqui</button>
 
 Seja bem vindo! 
 
@@ -12,6 +12,4 @@ Você terá um redirecionamento para meus perfis de rede social e tambmem poder�
 Ao acessar o botão sobre mim, você poderá verificar informações pessoais e tambem meus projetos desenvolvidos até o momento.
 Foram utilizadas a tecnologias HTML e CSS. Em breve pretendo acrescentar JS dando mais interatividade ao projeto.
 
-
-![portfolio-desktop](https://github.com/VetorMelo/portfolio-victor-melo/assets/111879839/07e33d09-31c6-4038-b27a-d55442689c9d)
-![portfolio-mobile](https://github.com/VetorMelo/portfolio-victor-melo/assets/111879839/7fbc3182-df02-49ad-bb01-5c97a2156710)
+<div align="center"><img height="500em" src="./assets/Projeto.png"/></div>
