@@ -169,6 +169,43 @@ aside span {
     padding: 22px;
     
   }
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.8fr;
+    grid-template-areas: 
+    "profile"
+    "timeline";
+  }
+  aside{
+    border-right: none;
+    padding: 22px 2px;
+  }
+  
+  nav {
+    overflow-y: visible;
+    padding: 22px;
+  }
+
+aside img:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  border: 4px solid transparent;
+  background: linear-gradient(#000000, #444444, #929292) padding-box,
+    linear-gradient(260deg, #000000, #788288, #000000) border-box;
+}
+aside span {
+  text-align: center;
+}
+
+}
 @media (max-width: 460px) {
   .video-apresentacao {
     width: 100%;
@@ -192,6 +229,10 @@ aside span {
   border: 4px solid transparent;
   background: linear-gradient(#4001a5, #5c26c9, #633bbc) padding-box,
     linear-gradient(260deg, #4301ad, #6427de, #a69db9) border-box;
+}
+
+aside span {
+  text-align: center;
 }
   }
   .declaracao{
