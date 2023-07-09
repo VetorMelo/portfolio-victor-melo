@@ -193,7 +193,7 @@ aside span {
   }
 
 aside img:nth-child(2) {
-  width: 200px;
+  width: 190px;
   height: 200px;
   border-radius: 50%;
 
@@ -222,7 +222,7 @@ aside span {
     padding: 22px 2px;
   }
   aside img:nth-child(2) {
-  width: 200px;
+  width: 190px;
   height: 200px;
   border-radius: 50%;
 
