@@ -81,7 +81,7 @@ aside p {
 }
 
 nav {
-  padding: 64px;
+  padding: 10px;
   grid-area: timeline;
 
   overflow-y: scroll;
